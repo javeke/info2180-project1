@@ -63,6 +63,11 @@ header .container ul li a:hover {
     width: 150px;
 }
 
+.learn-about{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
 .learn-about h2{
     color: #48bb78;
     font-size: 24px;
@@ -153,4 +158,55 @@ header .container ul li a:hover {
 .stories .article-body a{
     text-decoration: none;
     font-weight: bold;
+}
+
+.newsletter {
+    background: #48bb78;
+    color: white;
+}
+
+.newsletter .container{
+    text-align: center;
+    padding: 80px;
+    width: 440px;
+}
+
+.newsletter .container p{
+    text-align: left;
+    margin-left: 5px;
+    width: 435px;
+}
+
+.newsletter .container form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter .container form input{
+    height: 50px;
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 4px 8px;
+    border: none;
+}
+
+.newsletter .container form button{
+    border: none;
+    background: #5a67d8;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+footer {
+    background-color: #4a5568;
+    color: white;
+    padding: 12px;
 }
